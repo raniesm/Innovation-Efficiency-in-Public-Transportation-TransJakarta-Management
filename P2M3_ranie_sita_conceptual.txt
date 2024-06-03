@@ -1,0 +1,20 @@
+1.  NoSQL adalah jenis basis data yang tidak menggunakan tabel seperti basis data tradisional (SQL).
+    NoSQL cocok untuk menangani data besar dan beragam, seperti data unstructured atau semi-structured data.
+    NoSQL lebih fleksibel karena tidak memerlukan skema tetap, memungkinkan perubahan data yang lebih cepat.
+
+2.  Kapan harus menggunakan NoSQL dan RDBMS
+    - NoSQL : Pada saat data sangat besar dan tidak terstruktur. Jika memerlukan kecepatan tinggi dan bisa dengan skala horizontal. Serta keetika butuh fleksibilitas dalam skema data.
+    - RDBMS : Pada saat membutuhkan proses transaksi data yang aman dan konsisten (ACID). Pada query yang kompleks dan laporan data yang mendalam.
+
+3.  Dua contoh tools NoSQL selain ElasticSearch
+    - Mongo DB: Bisa menyimppan berbagai jenis data tanpa skema tetap (fleksibel). Mendukung query dan agregasi yangg beragam (Kuat).
+    - Cassandra : Bisa menangani data besar dan permintaan tinggi dengan menambah server (skalabel tinggi). Data tetap tersedia walaupun ada node yang gagal.
+
+4.  Apache Airflow adalah alat untuk membuat dan mengelola alur kerja otomatis, seperti proses data.
+    Menggunakan diagram (DAG) untuk mengatur tugas-tugas, memungkinkan dapat menjadwalkan dan memantau pekerjaan secara otomatis dan mudah.
+
+5.  Great Expectations adalah alat untuk memeriksa dan memastikan kualitas data. 
+    Kita dapat menentukkan aturan-aturan yang harus dipenuhi oleh data, membantu menemukan kesalahan atau anomali, dan mendokumentasikan data dengan baik.
+
+6.  Batch processing adalah cara memproses data secara berkala dalam suatu kelomopk besar, bukan langsung saat data diterima.
+    Contoh: menghitung gaji karyawan sebulan sekali. Alat yang biasa digunakan termasuk Apache Hadoop dan Apache Spark, yang memungkinkan pemrosesan data besar secara efisien.

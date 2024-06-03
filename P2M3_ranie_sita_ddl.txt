@@ -1,0 +1,30 @@
+\c milestone3
+CREATE TABLE IF NOT EXISTS public.table_m3(
+	transID TEXT,
+	payCadID TEXT,
+	payCardBank TEXT,
+	payCardName TEXT,
+	payCardSex CHAR(1),
+	payCardBirthDate INTEGER,
+	corridorID TEXT,
+	corridorName TEXT,
+	direction NUMERIC,
+	tapInStops TEXT,
+	tapInStopName TEXT,
+	tapInStopsLat NUMERIC,
+	tapInStopsLon NUMERIC,
+	stopStartSeq INTEGER,
+	tapInTime TIMESTAMP,
+	tapOutStops TEXT,
+	tapOutStopsName TEXT,
+	tapOutStopsLat NUMERIC,
+	tapOutStopsLon NUMERIC,
+	stopEndSeq NUMERIC,
+	tapOutTime TIMESTAMP,
+	payAmount NUMERIC
+);
+
+-- psql
+-- COPY public.table_m3 FROM '\Users\mymac\Documents\PHASE 2\MILESTONE3\P2M3_ranie_sita_data_raw.csv' DELIMITER ',' CSV HEADER;
+
+SELECT * FROM public.table_m3 LIMIT 10;
