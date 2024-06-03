@@ -1,0 +1,2 @@
+# Innovation-Efficiency-in-Public-Transportation-TransJakarta-Management
+Program ini dibuat untuk melakukan automatisasi transform dan load data dari PostgreSQL ke ElasticSearch. Adapun dataset yang dipakai adalah dataset mengenai transaksi yang dilakukan pada fasilitas kendaraan umum TransJakarta pada April 2023. Laporan ini dibuat untuk menganalisis pola penggunaan transportasi umum dan metode pembayaran digital.
